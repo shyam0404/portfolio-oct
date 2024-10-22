@@ -1,0 +1,280 @@
+.header{
+    margin: 0;
+    padding: 0;
+}
+.nav-link1{
+    display: flex;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    
+    font-size: 20px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.n{
+    margin-left: 20px;
+}
+.n1{
+    margin-left: 20px;
+    background-color: #000000;
+    color: #fdfdfd;
+    padding: 2.5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+.n1:hover{
+    background-color: #727272;
+}
+.header-content{
+    height: 100vh;
+    display: flex;
+}
+.left {
+    height: 100%;
+    width: 50%;
+   
+    background-color: #fdfdfd; 
+    color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    
+
+    
+}
+.cont{
+    margin-top: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.cont-logo{
+    padding: 10px;
+    
+}
+.right {
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    background-color: #000000; 
+    margin-top: 10px;
+    
+    
+}
+.img{
+    margin-top: 120px;
+    width: 750px;
+    height: auto;
+}
+.it{
+    background-color: #000000;
+    color: aliceblue;
+    
+    height: 180px;
+    padding: 15px 30px;
+  
+}
+.read-button{
+    background-color: rgb(0, 228, 0);
+    color: #fdfdfd;
+    padding: 7.5px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.read-button:hover{
+    background-color: rgb(0, 255, 17);
+}
+.about{
+    background-color: rgb(235, 228, 217);
+    
+}
+.about-button{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    
+}
+.abt-button{
+    background-color: rgb(235, 228, 217); 
+    color: #000000;
+    cursor: pointer;
+    margin-top: 200px;
+    font-size: 16px;
+    padding: 10px 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+    font-size: larger;
+    border: 3px solid #000000;
+    
+
+}
+.abt-button:hover{
+    background-color: #fdfdfd;
+}
+.about-content{
+    text-align: center;
+}
+.explore-button{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    
+}
+.exp-button{
+    background-color: rgb(235, 228, 217); 
+    color: #000000;
+    cursor: pointer;
+    
+    font-size: 16px;
+    padding: 10px 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+    font-size: larger;
+    border: 3px solid #000000;
+        
+}
+.exp-button:hover{
+    background-color: #fdfdfd;
+}
+.line{
+    text-align: center;
+}
+.abt-design{
+    display: flex;
+    margin-left: 30px;
+    
+}
+.design{
+    margin-left: 100px;
+    text-align: center;
+}
+.development{
+    margin-left: 380px;
+    text-align: center;
+}
+.maintenance{
+    justify-content: center;
+    display: grid;
+    text-align: center;
+}
+.skill-button{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+.sk-button{
+    background-color: rgb(235, 228, 217); 
+    color: #000000;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 10px 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+    font-size: larger;
+    border: 3px solid #000000;
+}
+.sk-button:hover{
+    background-color: #fdfdfd;
+}
+.using{
+    justify-content: center;
+    display: grid;
+    text-align: center;
+    margin: 30px;
+}
+.img-lang{
+    margin-top: 10px;
+}
+.learn{
+    justify-content: center;
+    display: grid;
+    text-align: center;
+    margin: 30px;
+}
+.img-js{
+    margin-top: 10px;
+}
+.other-skill{
+    justify-content: center;
+    display: grid;
+    text-align: center;
+    margin: 30px;
+}
+.img-skills{
+    margin-top: 10px;
+}
+.contact-button{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+.con-button{
+    background-color: rgb(235, 228, 217); 
+    color: #000000;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 10px 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+    font-size: larger;
+    border: 3px solid #000000;
+}
+.con-button:hover{
+    background-color: #fdfdfd;
+}
+.con-content{
+    text-align: center;
+    font-size: 16px;
+    
+}
+.buttons{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    
+}
+.name{
+    margin-top: 10px;
+}
+.email{
+    margin-top: 30px;
+}
+.ph{
+    margin-top: 30px;
+}
+.msg{
+    margin-top: 30px;
+}
+.footer{
+    background-color: #000000;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+}
+.foot-cont{
+    margin-top: 40px;
+    color: #fdfdfd;
+    text-align: center;
+}
+.foot-logo{
+    margin-top: 10px;
+    color: #fdfdfd;
+    text-align: center;
+    cursor: pointer;
+}
+.last-cont{
+    margin-top: 10px;
+    color: #fdfdfd;
+    text-align: center;
+}
